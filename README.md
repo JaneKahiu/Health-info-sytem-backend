@@ -2,13 +2,13 @@
 
 This is the backend of the Health Information System built with Django and Django REST Framework.
 
-## 🚀 Features
+##  Features
 
 - Register clients and health programs
 - Enroll clients into multiple programs
 - Expose client data via REST API
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 1. Clone the repo:
    ```bash
