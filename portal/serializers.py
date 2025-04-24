@@ -11,4 +11,4 @@ class ClientSerializer(serializers.ModelSerializer):
     enrolled_program = HealthProgramSerializer(many=True, read_only=True)
     class Meta:
         model = Client
-        fields = ['id', 'full_name', 'email', 'age', 'enrolled_program']
+        fields = ['id', 'full_name', 'email', 'age', 'gender' ,'enrolled_program']

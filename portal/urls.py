@@ -7,6 +7,8 @@ router.register(r'clients', ClientViewSet, basename='client')
 router.register(r'healthprograms', HealthProgramViewSet, basename='healthprogram')
 
 urlpatterns = [
-    path('api/', include(router.urls)),
-    path("", home ,name='home'),
+    # API endpoints
+    path('', include(router.urls)),
+
+    path('home/', home, name='home'),
 ]
