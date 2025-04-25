@@ -5,6 +5,7 @@ from rest_framework.routers import DefaultRouter
 router = DefaultRouter()
 router.register(r'clients', ClientViewSet, basename='client')
 router.register(r'healthprograms', HealthProgramViewSet, basename='healthprogram')
+router.register(r'notifications', NotificationViewSet, basename='notification')
 
 urlpatterns = [
     # API endpoints
