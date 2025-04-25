@@ -16,7 +16,7 @@ This is the backend of the Health Information System, built using **Django** and
 - [Django REST Framework](https://www.django-rest-framework.org/)
 - [SQLite](https://www.sqlite.org/index.html) (for development)
 
-## 📦 Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the Repository
 
